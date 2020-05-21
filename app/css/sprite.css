@@ -1,0 +1,96 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-add-to-cart-ic {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -38px;
+  width: 22px;
+  height: 21px;
+}
+.icon-amex-ic {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 27px;
+  height: 19px;
+}
+.icon-cart-hover-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -54px -19px;
+  width: 24px;
+  height: 17px;
+}
+.icon-like-ic {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -59px;
+  width: 19px;
+  height: 16px;
+}
+.icon-mail-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -19px -59px;
+  width: 18px;
+  height: 11px;
+}
+.icon-master-cart-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -27px 0px;
+  width: 27px;
+  height: 19px;
+}
+.icon-no-name-cart-1-ic {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -19px;
+  width: 27px;
+  height: 19px;
+}
+.icon-no-name-cart-2-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -27px -19px;
+  width: 27px;
+  height: 19px;
+}
+.icon-phone-book-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -81px 0px;
+  width: 12px;
+  height: 12px;
+}
+.icon-search-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -42px -38px;
+  width: 18px;
+  height: 18px;
+}
+.icon-share-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -60px -38px;
+  width: 19px;
+  height: 17px;
+}
+.icon-user-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -22px -38px;
+  width: 20px;
+  height: 21px;
+}
+.icon-visa-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -54px 0px;
+  width: 27px;
+  height: 19px;
+}

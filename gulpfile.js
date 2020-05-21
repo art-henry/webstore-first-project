@@ -30,7 +30,8 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 gulp.task('sprite', function () { // Создаем таск sprite
     var spriteData = gulp.src('src/sprite/*.png').pipe(spritesmith({ // Настройка спрайта
         imgName: 'sprite.png',
-        cssName: 'sprite.css'
+        cssName: 'sprite.css',
+        imgPath: '../img/sprite.png'
     }));
     // return spriteData.pipe(gulp.dest('app/img/')); // выгружаем спрайты в папку img
     var imgStream = spriteData.img
