@@ -9,6 +9,9 @@ body{
     font: 300 12px/1 'Harmonia_regular', sans-serif;
     background-color: #f4f6f8;
 }
+header, footer {
+    background-color: #fff;
+}
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }
@@ -95,6 +98,10 @@ button{
 .default-section {
     padding: 60px 0;
 }
+.text-section {
+    font-size: 16px;
+    color: #495662;
+}
 .item {
     background-color: #fff;
     padding: 30px 10px;
@@ -114,6 +121,15 @@ button{
        text-overflow: ellipsis;
 }
 
+.items-carousel {
+    min-height: 650px;
+    background: url("../img/carousel-img-1.jpg") no-repeat center / cover;
+    margin-bottom: 55px;
+}
+/* DEFAULT COMPONENT END */
+
+
+/* HEADER STYLES START */
 header .top-header {
     border-bottom:1px solid #edeff1;
     padding: 20px 0;
@@ -124,14 +140,108 @@ header .top-header .phones-list li + li {
 header .top-header .phones-list li span.custom-icon {
     margin-right: 10px;
 }
-.items-carousel {
-    min-height: 650px;
-    background: url("../img/carousel-img-1.jpg") no-repeat center / cover;
-    margin-bottom: 55px;
+header .top-header nav a + a {
+    margin-left: 20px;
 }
-/* DEFAULT COMPONENT END */
+header .bottom-header {
+    padding: 40px 0;
+}
+.bottom-header .header-nav {
+    margin-left: 80px;
+}
+.bottom-header .header-nav li {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.bottom-header .header-nav li:hover {
+    color: #ff5912;
+}
+.bottom-header .header-nav li + li {
+    margin-left: 40px;
+}
+.bottom-header .user-controls {
+    margin: auto;
+    margin-right: 0;
+    position: relative;
+}
+.bottom-header .user-controls a {
+    display: inline-block;
+}
+.bottom-header .user-controls a + a {
+    margin-left: 32px;
+}
+.bottom-header .user-controls .icon-search-ic:hover {
+    background-position: -62px -38px;
+}
+.bottom-header .user-controls .icon-user-ic:hover {
+    background-position: -22px -38px;
+}
+.bottom-header .user-controls .icon-cart-ic:hover {
+    background-position: -54px -19px;
+}
+.bottom-header .user-controls .icon-cart-ic:hover .quantity-circle {
+    background-color: #ff5912;
+    border-color: #ff5912;
+}
+.bottom-header .user-controls .quantity-circle {
+    font-size: 10px;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #34404b;
+    height: 18px;
+    width: 18px;
+    background-color: #34404b;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    position: absolute;
+    top: -16px;
+    right: 3px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+/* HEADER STYLES END */
 
 
 /* ALL STYLES START */
+
+/* ITEMS-CAROUSEL START */
+.items-carousel .text-section span {
+    display: inline-block;
+    font-family: 'Harmonia_semibold';
+    font-size: 18px;
+    color: #3c4751;
+}
+.items-carousel .text-section p {
+    padding: 12px 0 60px;
+}
+.items-carousel .text-section a {
+    display: inline-block;
+}
+.items-carousel .text-section a:hover span{
+    color: #ff5912;
+}
+.items-carousel .text-section a:hover i {
+    background-position: -54px -19px;
+}
+.items-carousel .text-section i {
+    display: inline-block;
+    margin: 0 4px 0 30px;
+}
+
+
+/* ITEMS-CAROUSEL END*/
 
 /* ALL STYLES END */
