@@ -69,6 +69,12 @@ button{
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+.justify-center {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
 .orange-text {
     color: #ff5912;
 }
@@ -119,12 +125,38 @@ button{
     overflow: hidden;
     -o-text-overflow: ellipsis;
        text-overflow: ellipsis;
+    font-family: 'Harmonia_bold';
+    font-size: 18px;
+    color: #34404b;
+    padding: 28px 0;
+}
+.item-price {
+    font-family: 'Harmonia_bold';
+    font-size: 18px;
 }
 
 .items-carousel {
     min-height: 650px;
     background: url("../img/carousel-img-1.jpg") no-repeat center / cover;
     margin-bottom: 55px;
+}
+.load-more-button {
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #fff;
+    margin: 80px 0 119px;
+}
+.load-more-button .circle {
+    border: 0 solid #34404b;
+    height: 8px;
+    width: 8px;
+    background-color: #ff5912;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+}
+.load-more-button .circle + .circle {
+    margin-left: 5px;
 }
 /* DEFAULT COMPONENT END */
 
@@ -243,5 +275,62 @@ header .bottom-header {
 
 
 /* ITEMS-CAROUSEL END*/
+
+/* KIT-ORDER START */
+.hot-deal {
+    background-color: #fff;
+}
+.sale-box {
+    width: 55px;
+    height: 65px;
+    border: 0 solid #ff5912;
+    background-color: #ff9060;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+.sale-box-2 {
+    width: 55px;
+    height: 65px;
+    border: 0 solid #ff5912;
+    background-color: #ff5912;
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.sale-box-2 h6 {
+    font-family: 'Harmonia_italic';
+    color: #ffffff;
+    -webkit-transform: rotate(-45deg) translateY(65%) translateX(-4%);
+        -ms-transform: rotate(-45deg) translateY(65%) translateX(-4%);
+            transform: rotate(-45deg) translateY(65%) translateX(-4%);
+}
+.sale-box-2 span {
+    display: inline-block;
+    font-family: 'Harmonia_black';
+    font-size: 18px;
+    color: #ffffff;
+    -webkit-transform: rotate(-45deg) translateY(115%);
+        -ms-transform: rotate(-45deg) translateY(115%);
+            transform: rotate(-45deg) translateY(115%);
+}
+.hot-deal .text-section .title {
+    display: inline-block;
+    font-size: 22px;
+    margin: 28px 0 15px;
+}
+.hot-deal .text-section .subtitle {
+    font-family: 'Harmonia_regular';
+    color: #495662;
+    font-size: 12px;
+    vertical-align: 2.5em;
+    margin-bottom: 27px;
+    text-transform: none;
+}
+.hot-deal .buy-section .item-price {
+    font-family: 'Harmonia_black';
+    font-size: 32px;
+}
+/* KIT-ORDER END */
 
 /* ALL STYLES END */

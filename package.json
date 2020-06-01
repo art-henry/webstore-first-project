@@ -1,7 +1,7 @@
 {
   "name": "store",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic template on GULP\r =====================",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,15 @@
     "gulp.spritesmith": "^6.5.1",
     "imagemin-pngquant": "^5.0.1",
     "merge-stream": "^1.0.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/art-henry/webstore-first-project.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/art-henry/webstore-first-project/issues"
+  },
+  "homepage": "https://github.com/art-henry/webstore-first-project#readme"
 }
