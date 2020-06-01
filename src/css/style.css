@@ -62,6 +62,9 @@ button{
 .justify-center {
     justify-content: center;
 }
+.justify-sp-around {
+    justify-content: space-around;
+}
 .orange-text {
     color: #ff5912;
 }
@@ -128,7 +131,7 @@ button{
     height: 60px;
     border: none;
     background-color: #fff;
-    margin: 80px 0 119px;
+    margin-top: 80px;
 }
 .load-more-button .circle {
     border: 0 solid #34404b;
@@ -276,6 +279,12 @@ header .bottom-header {
     color: #ffffff;
     transform: rotate(-45deg) translateY(115%);
 }
+.kit-order .flex-container {
+    max-height: 100px;
+}
+.kit-order .hot-deal {
+    flex-grow: 4;
+}
 .hot-deal .text-section .title {
     display: inline-block;
     font-size: 22px;
@@ -289,10 +298,33 @@ header .bottom-header {
     margin-bottom: 27px;
     text-transform: none;
 }
+.hot-deal .buy-section i {
+    display: inline-block;
+}
 .hot-deal .buy-section .item-price {
     font-family: 'Harmonia_black';
     font-size: 32px;
+    margin-left: 10px;
 }
+.kit-order .adv-area {
+    flex-grow: 7.5;
+    margin-left: 30px;
+    background-color: #fff;
+    max-width: 470px;
+    flex-direction: column;
+}
+.kit-order .adv-area .text-section span {
+    display: inline-block;
+    font-size: 16px;
+}
+.kit-order .adv-area .adv-size {
+    font-size: 12px;
+    letter-spacing: .6em;
+    color: rgba(52, 64, 75, 0.4);
+    margin-top: 18px;
+}
+
+
 /* KIT-ORDER END */
 
 /* ALL STYLES END */
