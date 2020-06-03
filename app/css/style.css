@@ -47,6 +47,9 @@ textarea{
 button{
     cursor: pointer;
 }
+footer {
+    color: #28313b;
+}
 /* RESET END */
 
 
@@ -79,6 +82,19 @@ button{
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
             justify-content: space-around;
+}
+.justify-sp-evenly {
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+.flex-direction-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .orange-text {
     color: #ff5912;
@@ -376,5 +392,106 @@ header .bottom-header {
 
 
 /* KIT-ORDER END */
+
+/* MINI-ITEMS START */
+.mini-items .mini-item {
+    background-color: #fff;
+}
+.mini-items .mini-item .mini-item-img {
+    padding: 34px 0;
+}
+.mini-items .mini-item .mini-item-description .item-title {
+    padding: 46px 0 28px;
+}
+.mini-items .mini-item .mini-rate-price {
+    position: relative;
+}
+.mini-items .mini-item .mini-rate-price .item-price {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    overflow: hidden;
+}
+
+.mini-items .mini-item .mini-rate-price .item-price:hover a.mini-price {
+    -webkit-transform: translateY(120%);
+        -ms-transform: translateY(120%);
+            transform: translateY(120%);
+    opacity: 0;
+}
+.mini-items .mini-item .mini-rate-price .item-price:hover .mini-rate {
+    opacity: 0;
+}
+
+
+.mini-items .mini-item .mini-rate-price .add-item-hover {
+    opacity: 0;
+    position: absolute;
+    left: 15%;
+    font-family: 'Harmonia_semibold';
+    font-size: 16px;
+}
+.mini-items .mini-item .mini-rate-price .add-item-hover span {
+    margin-left: 10px;
+}
+
+.mini-items .mini-item .mini-rate-price .item-price:hover .add-item-hover {
+    opacity: 1;
+}
+
+.mini-items .mini-item .add-item-hover i {
+    display: inline-block;
+}
+.mini-items .mini-item .mini-rate-price .mini-rate {
+    display: inline-block;
+}
+/*.mini-items .mini-item .mini-rate-price .item-price {
+
+}*/
+.mini-items .mini-item .mini-rate-price .bgc-color {
+    color:#f4f6f8;
+}
+
+/* FOOTER START */
+footer .default-section{
+    margin: 60px 0 0;
+}
+.default-section .footer-section {
+    padding:  28px 0 37px;
+}
+footer .copyright .logo {
+    margin-bottom: 20px;
+}
+footer .copyright .text-section {
+    font-size: 14px;
+    color: #28313b;
+}
+.default-section .link-section {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    font-size: 14px;
+    max-height: 73px;
+}
+.default-section .link-section li {
+    list-style-type: disc;
+}
+.default-section .link-section a:hover {
+    color: #ff5912;
+}
+.default-section .link-section .link-section-column a + a {
+    margin-top: 16px;
+}
+.default-section .payment-methods .payment-title {
+    font-family: 'Harmonia_semibold';
+    font-size: 16px;
+}
+.default-section .payment-methods .icon-payment-cards i {
+    display: inline-block;
+}
+/* FOOTER END */
+
 
 /* ALL STYLES END */
