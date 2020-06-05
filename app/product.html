@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--    jQuery UI Style -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/sprite.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- HEADER START -->
+<header>
+    <div class="top-header">
+        <div class="container">
+            <div class="flex-container justify-sp-between">
+                <ul class="phones-list flex-container align-center">
+                    <li><span class="custom-icon icon-mail-ic align-center"></span> info@shopy.com</li>
+                    <li><span class="custom-icon icon-phone-book-ic align-center"></span> 453-5553-996</li>
+                </ul>
+                <nav>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-header">
+        <div class="container">
+            <div class="flex-container justify-sp-between align-center">
+                <div class="logo">
+                    <a href=""><img src="img/logo.png" alt=""></a>
+                </div>
+                <ul class="header-nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Hot Deals</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <div class="user-controls">
+                    <a href="" class="icon-search-ic"></a>
+                    <a href="" class="icon-user-ic"></a>
+                    <a href="" class="icon-cart-ic">
+                        <div class="quantity-circle">5</div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- HEADER END -->
+
+
+<!-- MAIN START -->
+
+<main>
+    <div class="product-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="product-carousel center-block">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li data-thumb="img/product-slide-1.png">
+                                    <img src="img/product-slide-1.jpg" />
+                                </li>
+                                <li data-thumb="img/product-slide-1.png">
+                                    <img src="img/product-slide-1.jpg" />
+                                </li>
+                                <li data-thumb="img/product-slide-1.png">
+                                    <img src="img/product-slide-1.jpg" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="product-description">
+                        <div class="order-info">
+                            <div class="order-form">
+                                <form id="product-option" class="flex-container justify-sp-between">
+                                    <div class="choose-size flex-container align-center">
+                                        <span>Choose Size</span>
+                                        <div class="size-radio-btn-group  flex-container align-center">
+                                            <div class="size-radio">
+                                                <input type="radio" name="radio" id="sSize">
+                                                <label for="sSize">s</label>
+                                            </div>
+                                            <div class="size-radio">
+                                                <input type="radio" name="radio" id="mSize" checked>
+                                                <label for="mSize">m</label>
+                                            </div>
+                                            <div class="size-radio">
+                                                <input type="radio" name="radio" id="lSize">
+                                                <label for="lSize">l</label>
+                                            </div>
+                                            <div class="size-radio">
+                                                <input type="radio" name="radio" id="xlSize">
+                                                <label for="xlSize">xl</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="quantity flex-container align-center">
+                                        <span>Choose Quantity</span>
+                                        <input type="number" name="quantity" class="custom-number">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="order-now flex-container align-center justify-sp-between">
+                                <div class="product-price">
+
+                                </div>
+                                <ul class="product-share">
+
+                                </ul>
+                                <input type="submit" value="Order Now" form="product-option" class="btn btn-default btn-radius">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="default-section subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="subscribe-form white-bg flex-container align-center justify-sp-between">
+                            <div class="subscribe-description">
+                                <span class="orange-text">NEWS LETTER</span>
+                                <p>join us now to get all news and special offers</p>
+                            </div>
+                            <form class="flex-container align-center">
+                                <div class="subscribe-input-group">
+                                    <label class="custom-icon icon-mail-ic" for="subscribeEmail"></label>
+                                    <input type="email" class="subscribe-input" id="subscribeEmail" placeholder="type your email here">
+                                </div>
+                                <button class="btn btn-default">join us</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<!-- MAIN END -->
+
+<!-- FOOTER START -->
+
+<footer>
+    <div class="default-section">
+        <div class="container">
+            <div class="footer-section flex-container justify-sp-between">
+                <div class="copyright">
+                    <div class="logo">
+                        <a href=""><img src="img/logo.png" alt=""></a>
+                    </div>
+                    <div class="text-section">
+                        <a href="">shopy c 2015 . your copy right here</a>
+                    </div>
+                </div>
+
+                <div class="link-section flex-container justify-sp-evenly">
+                    <ul class="link-section-column flex-container flex-direction-column justify-sp-between">
+                        <a href="">
+                            <li>about us</li>
+                        </a>
+                        <a href="">
+                            <li>contact us</li>
+                        </a>
+                        <a href="">
+                            <li>support</li>
+                        </a>
+                    </ul>
+                    <ul class="link-section-column flex-container flex-direction-column justify-sp-between">
+                        <a href="">
+                            <li>our feed</li>
+                        </a>
+                        <a href="">
+                            <li>terms and conditions</li>
+                        </a>
+                        <a href="">
+                            <li>our privacy</li>
+                        </a>
+                    </ul>
+                    <ul class="link-section-column flex-container flex-direction-column">
+                        <a href="">
+                            <li>join us</li>
+                        </a>
+                        <a href="">
+                            <li>live support</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="payment-methods flex-container flex-direction-column justify-sp-around">
+                    <div class="payment-title orange-text">
+                        <a href="">Payment Methods</a>
+                    </div>
+                    <div class="icon-payment-cards">
+                        <i class="icon-amex-ic"></i>
+                        <i class="icon-no-name-cart-1-ic"></i>
+                        <i class="icon-visa-ic"></i>
+                        <i class="icon-master-cart-ic"></i>
+                        <i class="icon-no-name-cart-2-ic"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- FOOTER END -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/plugins.min.js"></script>
+</body>
+</html>
