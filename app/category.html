@@ -50,8 +50,8 @@
                     <a href=""><img src="img/logo.png" alt=""></a>
                 </div>
                 <ul class="header-nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
                     <li><a href="">Hot Deals</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
@@ -113,11 +113,11 @@
                             <div class="add-range-value flex-container" >
                                 <div class="range-input-reoup">
                                     <label for="fromValue">From</label>
-                                    <input type="number" name="fromValue" id="fromValue" min="0">
+                                    <input type="number" name="fromValue" id="fromValue" min="0" class="raz">
                                 </div>
                                 <div class="range-input-reoup">
                                     <label for="toValue">To</label>
-                                    <input type="number" name="toValue" id="toValue" min="0">
+                                    <input type="number" name="toValue" id="toValue" min="0" class="raz">
                                 </div>
                             </div>
                         </div>
@@ -492,7 +492,7 @@
                                     <p>join us now to get all news and special offers</p>
                                 </div>
                                 <form class="flex-container align-center">
-                                    <div class="subscribe-input-group">
+                                    <div class="subscribe-input-group subscribe-input">
                                         <label class="custom-icon icon-mail-ic" for="subscribeEmail"></label>
                                         <input type="email" class="subscribe-input" id="subscribeEmail" placeholder="type your email here">
                                     </div>
@@ -529,34 +529,34 @@
 
                 <div class="link-section flex-container justify-sp-evenly">
                     <ul class="link-section-column flex-container flex-direction-column justify-sp-between">
-                        <a href="">
-                            <li>about us</li>
-                        </a>
-                        <a href="">
-                            <li>contact us</li>
-                        </a>
-                        <a href="">
-                            <li>support</li>
-                        </a>
+                        <li>
+                            <a href="">about us</a>
+                        </li>
+                        <li>
+                            <a href="">contact us</a>
+                        </li>
+                        <li>
+                            <a href="">support</a>
+                        </li>
                     </ul>
                     <ul class="link-section-column flex-container flex-direction-column justify-sp-between">
-                        <a href="">
-                            <li>our feed</li>
-                        </a>
-                        <a href="">
-                            <li>terms and conditions</li>
-                        </a>
-                        <a href="">
-                            <li>our privacy</li>
-                        </a>
+                        <li>
+                            <a href="">our feed</a>
+                        </li>
+                        <li>
+                            <a href="">terms and conditions</a>
+                        </li>
+                        <li>
+                            <a href="">our privacy</a>
+                        </li>
                     </ul>
                     <ul class="link-section-column flex-container flex-direction-column">
-                        <a href="">
-                            <li>join us</li>
-                        </a>
-                        <a href="">
-                            <li>live support</li>
-                        </a>
+                        <li>
+                            <a href="">join us</a>
+                        </li>
+                        <li>
+                            <a href="">live support</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -584,6 +584,8 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
 <script src="js/plugins.min.js"></script>
 </body>
 </html>

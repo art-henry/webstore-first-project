@@ -16,9 +16,15 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
-.icon-add-to-cart-ic {
+.icon-add-to-cart-ic-hover {
   background-image: url(../img/sprite.png);
   background-position: 0px -38px;
+  width: 22px;
+  height: 21px;
+}
+.icon-add-to-cart-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -22px -38px;
   width: 22px;
   height: 21px;
 }
@@ -36,19 +42,25 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-cart-ic {
   background-image: url(../img/sprite.png);
-  background-position: 0px -59px;
+  background-position: -20px -59px;
   width: 24px;
   height: 17px;
 }
+.icon-like-ic-hover {
+  background-image: url(../img/sprite.png);
+  background-position: -19px -80px;
+  width: 19px;
+  height: 16px;
+}
 .icon-like-ic {
   background-image: url(../img/sprite.png);
-  background-position: -43px -59px;
+  background-position: -38px -80px;
   width: 19px;
   height: 16px;
 }
 .icon-mail-ic {
   background-image: url(../img/sprite.png);
-  background-position: -81px -18px;
+  background-position: -81px -36px;
   width: 18px;
   height: 11px;
 }
@@ -72,37 +84,43 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-phone-book-ic {
   background-image: url(../img/sprite.png);
-  background-position: -81px -29px;
+  background-position: -81px -47px;
   width: 12px;
   height: 12px;
 }
 .icon-search-hover-ic {
   background-image: url(../img/sprite.png);
-  background-position: -62px -38px;
+  background-position: -81px 0px;
   width: 18px;
   height: 18px;
 }
 .icon-search-ic {
   background-image: url(../img/sprite.png);
-  background-position: -81px 0px;
+  background-position: -81px -18px;
   width: 18px;
   height: 18px;
 }
-.icon-share-ic {
+.icon-share-ic-hover {
   background-image: url(../img/sprite.png);
-  background-position: -24px -59px;
+  background-position: -44px -59px;
   width: 19px;
   height: 17px;
 }
-.icon-user-hover-ic {
+.icon-share-ic {
   background-image: url(../img/sprite.png);
-  background-position: -22px -38px;
+  background-position: 0px -80px;
+  width: 19px;
+  height: 17px;
+}
+.icon-user-ic-hover {
+  background-image: url(../img/sprite.png);
+  background-position: -44px -38px;
   width: 20px;
   height: 21px;
 }
 .icon-user-ic {
   background-image: url(../img/sprite.png);
-  background-position: -42px -38px;
+  background-position: 0px -59px;
   width: 20px;
   height: 21px;
 }
