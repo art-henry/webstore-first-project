@@ -74,6 +74,19 @@ $( function() {
         });
     });
 
+    //flexslide home
+    $(window).load(function() {
+        $('.item-flexslider').flexslider({
+            animation: "slide"
+        });
+    });
+
+    //slick nav init
+    $('.header-nav').slicknav({
+        appendTo: 'header .bottom-header .flex-container.justify-sp-between',
+        label: ''
+    });
+
     // formstyler init
     $('.custom-number').styler();
 

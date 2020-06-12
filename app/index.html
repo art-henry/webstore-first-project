@@ -9,6 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <!--    jQuery UI Style -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/sprite.css">
     <link rel="stylesheet" href="css/style.css">
@@ -26,7 +32,7 @@
 <header>
     <div class="top-header">
         <div class="container">
-            <div class="flex-container justify-sp-between">
+            <div class="flex-container flex-wrap justify-sp-between">
                 <ul class="phones-list flex-container align-center">
                     <li><span class="custom-icon icon-mail-ic align-center"></span> info@shopy.com</li>
                     <li><span class="custom-icon icon-phone-book-ic align-center"></span> 453-5553-996</li>
@@ -42,7 +48,7 @@
     </div>
     <div class="bottom-header">
         <div class="container">
-            <div class="flex-container justify-sp-between align-center">
+            <div class="flex-container flex-wrap justify-sp-between align-center">
                 <div class="logo">
                     <a href=""><img src="img/logo.png" alt=""></a>
                 </div>
@@ -74,20 +80,59 @@
     <!-- ITEMS-CAROUSEL START -->
     <section class="items-carousel flex-container align-center">
         <div class="container">
-                <div class="items-carousel-description">
-                    <div class="title big orange-text">
-                        <span>FULL WINTER KIT</span>
-                    </div>
-                    <div class="text-section">
-                        <span class="subtitle-bold">Half Jacket + Skiny Trousers + Boot leather</span>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                        <span>Price: 120$</span>
-                        <a href="">
-                            <i class="icon-cart-ic"></i>
-                            <span>Order Now</span>
-                        </a>
-                    </div>
-                </div>
+            <div class="item-flexslider">
+                <ul class="slides">
+                    <li>
+                        <div class="items-carousel-description">
+                            <div class="title big orange-text">
+                                <span>FULL WINTER KIT</span>
+                            </div>
+                            <div class="text-section">
+                                <span class="subtitle-bold">Half Jacket + Skiny Trousers + Boot leather</span>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                <span>Price: 120$</span>
+                                <a href="">
+                                    <i class="icon-cart-hover-ic"></i>
+                                    <span class="orange-text">Order Now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="items-carousel-description">
+                            <div class="title big orange-text">
+                                <span>FULL WINTER KIT</span>
+                            </div>
+                            <div class="text-section">
+                                <span class="subtitle-bold">Half Jacket + Skiny Trousers + Boot leather</span>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                <span>Price: 120$</span>
+                                <a href="">
+                                    <i class="icon-cart-hover-ic"></i>
+                                    <span class="orange-text">Order Now</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    <li>
+                        <div class="items-carousel-description">
+                            <div class="title big orange-text">
+                                <span>FULL WINTER KIT</span>
+                            </div>
+                            <div class="text-section">
+                                <span class="subtitle-bold">Half Jacket + Skiny Trousers + Boot leather</span>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                <span>Price: 120$</span>
+                                <a href="">
+                                    <i class="icon-cart-hover-ic"></i>
+                                    <span class="orange-text">Order Now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </section>
     <!-- ITEMS-CAROUSEL END -->
@@ -101,7 +146,7 @@
             <span class="subtitle text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
             <div class="new-items">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="item">
                             <div class="item-img">
                                 <a href="category.html">
@@ -134,7 +179,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="item">
                             <div class="item-img">
                                 <a href="">
@@ -167,7 +212,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="item">
                             <div class="item-img">
                                 <a href="">
@@ -200,7 +245,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="item">
                             <div class="item-img">
                                 <a href="">
@@ -253,7 +298,7 @@
             <div class="kit-order">
                 <div class="flex-container justify-sp-between">
                     <div class="hot-deal">
-                        <div class="text-section flex-container align-center justify-sp-around">
+                        <div class="text-section flex-container flex-wrap align-center justify-sp-around">
                             <div class="sale-box">
                                 <div class="sale-box-2">
                                     <h6>Sale</h6>
@@ -276,7 +321,7 @@
                             <span>adv</span> <span class="orange-text">area</span>
                         </div>
                         <div class="adv-size">
-                            <span>470x100</span>
+                            <span>470 x 100</span>
                         </div>
                     </div>
                 </div>
@@ -294,7 +339,37 @@
             <span class="subtitle text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
             <div class="mini-items">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="mini-item flex-container justify-sp-around margin-bottom-min-width767">
+                            <div class="mini-item-img">
+                                <a href="">
+                                    <img src="img/item-img-1-min.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mini-item-description flex-direction-column">
+                                <div class="item-title">
+                                    <a href="">Reebok Track Jacket</a>
+                                </div>
+                                <div class="mini-rate-price flex-container justify-sp-between align-center">
+                                    <div class="item-price orange-text flex-container justify-sp-between align-center">
+                                        <div class="mini-rate">
+                                            <i class="fa fa-star orange-text"></i>
+                                            <i class="fa fa-star orange-text"></i>
+                                            <i class="fa fa-star orange-text"></i>
+                                            <i class="fa fa-star bgc-color"></i>
+                                        </div>
+                                        <a href="" class="mini-price">100$</a>
+                                        <a href="" class="add-item-hover flex-container align-center">
+                                            <i class="icon-add-to-cart-ic-hover"></i>
+                                            <span>add to cart</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="mini-item flex-container justify-sp-around">
                             <div class="mini-item-img">
                                 <a href="">
@@ -324,37 +399,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <div class="mini-item flex-container justify-sp-around">
-                            <div class="mini-item-img">
-                                <a href="">
-                                    <img src="img/item-img-1-min.png" alt="">
-                                </a>
-                            </div>
-                            <div class="mini-item-description flex-direction-column">
-                                <div class="item-title">
-                                    <a href="">Reebok Track Jacket</a>
-                                </div>
-                                <div class="mini-rate-price flex-container justify-sp-between align-center">
-                                    <div class="item-price orange-text flex-container justify-sp-between align-center">
-                                        <div class="mini-rate">
-                                            <i class="fa fa-star orange-text"></i>
-                                            <i class="fa fa-star orange-text"></i>
-                                            <i class="fa fa-star orange-text"></i>
-                                            <i class="fa fa-star bgc-color"></i>
-                                        </div>
-                                        <a href="" class="mini-price">100$</a>
-                                        <a href="" class="add-item-hover flex-container align-center">
-                                            <i class="icon-add-to-cart-ic-hover"></i>
-                                            <span>add to cart</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
+                    <div class="col-md-4 hidden-sm hidden-xs">
                         <div class="mini-item flex-container justify-sp-around">
                             <div class="mini-item-img">
                                 <a href="">
@@ -394,8 +439,8 @@
     <section class="default-section subscribe">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <div class="subscribe-form white-bg flex-container align-center justify-sp-between">
+                <div class="col-md-12">
+                    <div class="subscribe-form white-bg flex-container flex-wrap align-center justify-sp-between">
                         <div class="subscribe-description">
                             <span class="orange-text">NEWS LETTER</span>
                             <p>join us now to get all news and special offers</p>
@@ -426,7 +471,7 @@
 <footer>
     <div class="default-section">
         <div class="container">
-            <div class="footer-section flex-container justify-sp-between">
+            <div class="footer-section flex-container flex-wrap justify-sp-between">
                 <div class="copyright">
                     <div class="logo">
                         <a href=""><img src="img/logo.png" alt=""></a>
@@ -437,7 +482,7 @@
                 </div>
 
                 <div class="link-section flex-container justify-sp-evenly">
-                    <ul class="link-section-column flex-container flex-direction-column justify-sp-between">
+                    <ul class="link-section-column link-column-1 flex-container flex-direction-column justify-sp-between">
                         <li>
                             <a href="">about us</a>
                         </li>
@@ -448,7 +493,7 @@
                             <a href="">support</a>
                         </li>
                     </ul>
-                    <ul class="link-section-column flex-container flex-direction-column justify-sp-between">
+                    <ul class="link-section-column link-column-2 flex-container flex-direction-column justify-sp-between">
                         <li>
                             <a href="">our feed</a>
                         </li>
@@ -459,7 +504,37 @@
                             <a href="">our privacy</a>
                         </li>
                     </ul>
-                    <ul class="link-section-column flex-container flex-direction-column">
+                    <ul class="link-section-column link-column-3 flex-container flex-direction-column">
+                        <li>
+                            <a href="">join us</a>
+                        </li>
+                        <li>
+                            <a href="">live support</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="link-section min-width-479-hover flex-container justify-sp-evenly">
+                    <ul class="link-section-column link-column-1 flex-container flex-direction-column justify-sp-between">
+                        <li>
+                            <a href="">about us</a>
+                        </li>
+                        <li>
+                            <a href="">contact us</a>
+                        </li>
+                        <li>
+                            <a href="">support</a>
+                        </li>
+                        <li>
+                            <a href="">our feed</a>
+                        </li>
+                    </ul>
+                    <ul class="link-section-column link-column-2 flex-container flex-direction-column justify-sp-between">
+                        <li>
+                            <a href="">terms and conditions</a>
+                        </li>
+                        <li>
+                            <a href="">our privacy</a>
+                        </li>
                         <li>
                             <a href="">join us</a>
                         </li>
@@ -469,7 +544,7 @@
                     </ul>
                 </div>
 
-                <div class="payment-methods flex-container flex-direction-column justify-sp-around">
+                <div class="payment-methods flex-container flex-direction-column justify-sp-around text-center">
                     <div class="payment-title orange-text">
                         <a href="">Payment Methods</a>
                     </div>
@@ -495,6 +570,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/jquery.formstyler.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
 <script src="js/plugins.min.js"></script>
 </body>
 </html>
